@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Juego de Velocidad</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>¿Que tan rápido digitas?</h1>
+        <!--pantalla de inicio -->
+        <div id="inicio">
+            <img src="/teclado.png" alt="teclado">
+            <p>¿Cuántas palabras puedes digitar en 1 minuto?</p>
+            <button class="button" onclick="comenzarJuego()">Comenzar Juego</button>
+        </div>
+
+        <!--pantalla de Juego-->
+        <div class="juego" id="juego">
+            <div id="tiempo" class="tiempo">59</div>
+            <div id="palabra" class="palabra_estilo">Palabra</div>
+
+            <input type="text" placeholder="Escribe aquí..." id="palabra_ingresada" class="entrada" onkeyup="comparar()">
+            <div class="listado" id="registro">
+                <h3>Palabras Digitadas</h3>
+                
+            </div>
+        </div>
+
+        <!--Pantalla Final-->
+        <div class="estilo_final" id="final">
+            <p class="texto_final">Palabras en un minuto</p>
+            <div class="estilo_cantidad_final" id="cantidad_final">30</div>
+            <a href="index.html" class="button">Jugar de nuevo</a>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

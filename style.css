@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+    background: hsla(197, 100%, 63%, 1);
+    
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+}
+.contenedor{
+    width: 100vw;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+/*Pantalla Inicio*/
+#inicio{
+    display: block;
+
+}
+h1{
+    color:white;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#inicio img{
+    width: 250px;
+    margin: 30px;
+}
+#inicio p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+}
+.button{
+    padding: 15px;
+    background: #703a7c;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    margin: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 28px;
+    background: #703a7c;
+    box-shadow: inset -15px 15px 30px #5c3066,
+                inset 15px -15px 30px #844492;
+    color: white;
+
+
+}
+.button:hover{
+    box-shadow: inset 18px -18px 35px #4b2753,
+    inset -18px 18px 35px #954da5;
+}
+
+
+
+/*Pantalla Juego*/
+#juego{
+    display: none;
+    padding: 18px;
+}
+#juego .tiempo{
+    border: 4px solid #703a7c;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#juego .palabra_estilo{
+    padding: 38px;
+    font-size: 40px;
+    background-color: #703a7c;
+    color: white;
+}
+.entrada{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid pink;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    margin: 50px 0;
+    display: block;
+    color: white;
+}
+
+.listado h3{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.listado span{
+    font-size: 14px;
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+    background: #703a7c;
+    box-shadow: inset -15px 15px 30px #5c3066,
+                inset 15px -15px 30px #844492;
+    color: white;
+}
+
+
+/*Pantalla Final*/
+#final{
+    display: none;
+}
+.texto_final{
+    font-size: 30px;
+    margin-top: 40px;
+    color: white;
+}
+.estilo_cantidad_final{
+    background: #703a7c;
+    border-radius: 24px;
+    background: #703a7c;
+    border-radius: 24px;
+    background: #a668b3;
+    box-shadow: inset -16px -16px 31px #5c3066,
+                inset 16px 16px 31px #844492;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
