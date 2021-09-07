@@ -159,7 +159,7 @@ a{
     color: white;
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (min-width: 780px) {
     #juego .palabra_estilo{
         width: 50%;
         margin: auto;
