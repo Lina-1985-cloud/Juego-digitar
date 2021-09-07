@@ -89,8 +89,8 @@ h1{
 }
 
 #juego .palabra_estilo{
-    padding: 30px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 18px;
     background-color: #703a7c;
     color: white;
 }
@@ -110,8 +110,8 @@ h1{
 
 .listado h3{
     color: white;
-    margin-bottom: 15px;
-    font-size: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 .listado span{
     font-size: 14px;
