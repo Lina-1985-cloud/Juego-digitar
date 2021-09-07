@@ -163,6 +163,7 @@ a{
     #juego .palabra_estilo{
         width: 50%;
         margin: auto;
+        font-size: 40px;
     }
     .entrada{
         
