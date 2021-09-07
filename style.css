@@ -89,8 +89,8 @@ h1{
 }
 
 #juego .palabra_estilo{
-    padding: 38px;
-    font-size: 40px;
+    padding: 30px;
+    font-size: 20px;
     background-color: #703a7c;
     color: white;
 }
@@ -100,7 +100,7 @@ h1{
     outline: none;
     border-bottom: 2px solid pink;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 5px;
     margin: 50px 0;
@@ -159,3 +159,17 @@ a{
     color: white;
 }
 
+@media only screen and (max-width: 1800px) {
+    #juego .palabra_estilo{
+        width: 50%;
+        margin: auto;
+    }
+    .entrada{
+        
+        border-bottom: 2px solid pink;
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
